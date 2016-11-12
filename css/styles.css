@@ -16,3 +16,72 @@ h1 {
     color: crimson;
     font-size: 3em;
 }
+
+/*---- styles for ABOUT US section -----*/
+#about {
+	/*background-color: rgba(242, 234, 221, 0.8);*/
+	/*background-color: rgba(82, 68, 55, 0.8);*/
+	background-color: rgba(189, 170, 140, 0.8);
+}
+
+.container	{
+	width: 90%;
+	margin: auto;
+}
+
+.image {
+	padding: 15px;
+    margin-left: -10px;
+    display: inline-block;
+    width: 49%;
+} 
+.image img {
+	margin: auto;
+   	/*width: 460px;*/
+   	height: 365px;
+    border-radius: 10px;
+}
+
+.text {
+	display: inline-block;
+    width: 45%;
+    position: absolute;
+}
+
+ .text h1 {
+ 	color: #524437;
+ 	padding-top: 30px;
+ 	font-weight: 800;
+ 	text-align: center;
+ }
+
+.text h1:before,
+.text h1:after {
+	content:" " "~" " ";
+	margin: auto;
+	vertical-align: center;
+	color: #524437;
+
+}
+
+ .text p {
+ 	font-size: 24px;
+ 	color: white;
+ 	text-align: center;
+ 	font-weight: 600;
+ 	text-transform: lowercase;
+ 	font-style: italic;
+ 	text-shadow: 2px 2px 2px #524437;
+ }
+
+ /*-----Section AboutUs End------*/
+ /*-----Menu Section----*/
+ #menu .container	{
+	width: 80%;
+	margin: auto;
+}
+
+
+
+
+ /*-----Menu End----*/
