@@ -58,9 +58,9 @@ ul {
     padding: 0;
     font-size: 0;
     float: right;
-    margin-right: 18%;
-    position: relative;
-    height: 100%;
+    /* margin-right: 18%; */
+    /* position: relative; */
+    /* height: 100%; */
 }
 
 .menu li {
@@ -83,18 +83,27 @@ ul {
 }
 
 .icons-block {
-    position: absolute;
-    top:20px;
-    left: 1120px;;
-
+    /* position: relative; */
+    /* top:20px; */
+    /* float: right; */
+    margin: 16px;
 }
+
 li.icon {
-    position: absolute;
-    left: 30px;
+    position: relative;
     background-color: #f2eadd;
     border-radius: 50%;
     height:30px;
     width: 30px;
+    font-size:1rem;
+    float: left;
+    margin-left: 10px;
+}
+
+li.icon i {
+    position: absolute;
+    left: 10px;
+    top: 8px;
 }
 
 /*Header section*/
