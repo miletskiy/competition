@@ -208,8 +208,43 @@ header {
 #menu .container	{
 	width: 80%;
 	margin: auto;
+	border-radius: 7px;
 }
 
+.sections {
+	text-align: center;
+    margin: 5px auto 5px;
+    background-color: white;
+    border-radius: 7px;
+    vertical-align: middle;
+}
+.sections a {
+	display: inline-block;
+    padding: 15px;
+    font-size: 25px;
+    width: 100px;
+    color: #a31523;
+    margin: auto 20px;
+    text-decoration: none;
+    text-shadow: 1px 1px 2px #a31523;
+    }
+
+.menuList {
+	padding: 25px;
+	column-count: 3;
+	column-gap: 50px;
+	color: white;
+	font-size: 20px;
+	line-height: 1.5;
+	border-radius: 7px;
+	background-color: rgba(189, 170, 140, 0.8);
+}
+.menuList p {
+	margin: 0;
+}
+
+
+    
 
 /*-----Menu End----*/
 
