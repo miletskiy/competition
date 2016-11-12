@@ -1,8 +1,10 @@
 
+@import url('https://fonts.googleapis.com/css?family=Roboto:300,400,700');
+
 html,
 body {
     min-height: 100%;
-    font-family: "Arial", sans-serif;
+    font-family: 'Roboto', sans-serif;
     background-color: #ededed;
 }
 
@@ -52,7 +54,7 @@ ul {
     height: 100%;
 }
 
-li {
+.menu li {
     display: inline-block;
     font-size: 1rem;
     text-align: center;
@@ -60,17 +62,31 @@ li {
     height: 100%;
 }
 
-li a {
+.menu li a {
     color: #ffffff;
     display: inline-block;
     padding: 22px 15px;
     height: 100%;
 }
 
-li a:hover {
+.menu li a:hover {
     color: #a31523;
 }
 
+.icons-block {
+    position: absolute;
+    top:20px;
+    left: 1120px;;
+
+}
+li.icon {
+    position: absolute;
+    left: 30px;
+    background-color: #f2eadd;
+    border-radius: 50%;
+    height:30px;
+    width: 30px;
+}
 
 /*Header section*/
 
@@ -79,6 +95,7 @@ header {
     background-repeat: no-repeat;
     background-size: cover;
     height: 100vh;
+    clear:both;
     /* position:relative; */
 }
 
@@ -92,7 +109,7 @@ header {
     z-index:1;
 }
 .sub-header h1{
-    margin: auto;
+    margin:20px auto;
     text-transform: capitalize;
     color: #524437;
 }
@@ -137,7 +154,7 @@ header {
     margin-left: -10px;
     display: inline-block;
     width: 49%;
-} 
+}
 .image img {
 	margin: auto;
    	/*width: 460px;*/
