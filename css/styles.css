@@ -6,13 +6,116 @@ body {
     background-color: #ededed;
 }
 
+/*Colors*/
+/*
+
+#a31523
+#f2eadd
+#bdaa8c
+#524437
+*/
 .container {
-    margin: 20px auto;
-    width: 80%;
+    margin:0 auto;
+    width: 60%;
+}
+a {
+    text-decoration: none;
 }
 
-h1 {
+/*Navbar section*/
+
+nav {
+    background-color: #bdaa8c;
+    height: 70px;
+    position: fixed;
+    width: 100%;
+    z-index: 5;
+}
+
+.logo {
+    float: left;
+    margin-left: 20%;
+    margin-top: 7px;
+}
+
+.logo img {
+    width: 40%;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+    font-size: 0;
+    float: right;
+    margin-right: 18%;
+    position: relative;
+    height: 100%;
+}
+
+li {
+    display: inline-block;
+    font-size: 1rem;
     text-align: center;
-    color: crimson;
-    font-size: 3em;
+    text-transform: uppercase;
+    height: 100%;
+}
+
+li a {
+    color: #ffffff;
+    display: inline-block;
+    padding: 22px 15px;
+    height: 100%;
+}
+
+li a:hover {
+    color: #a31523;
+}
+
+
+/*Header section*/
+
+header {
+    background-image: url("../img/photo-welcome.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    /* position:relative; */
+}
+
+.sub-header {
+    position: absolute;
+    width: 100%;
+    height: 38%;
+    top: 34%;
+    background-color: rgba(242,232,221, 0.6);
+    text-align: center;
+    z-index:1;
+}
+.sub-header h1{
+    margin: auto;
+    text-transform: capitalize;
+    color: #524437;
+}
+.sub-header h2 {
+    color: #524437;
+}
+
+.sub-header .button {
+    display: block;
+    margin: 40px auto;
+    border: 2px solid #a31523;
+    border-radius:3px;
+    width: 150px;
+    padding: 10px;
+    background-color: #fff;
+    text-transform: uppercase;
+    color: #a31523;
+    text-align: center;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+.button:hover {
+    background-color: #a31523;
+    color: #fff;
 }
