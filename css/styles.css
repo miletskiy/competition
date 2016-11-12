@@ -12,6 +12,10 @@ body {
     transition: all .1s ease-in;
 }
 
+h1,
+h2 {
+    color:#524437;
+}
 /*Colors*/
 /*
 
@@ -24,6 +28,7 @@ body {
     margin:0 auto;
     width: 60%;
 }
+
 a {
     text-decoration: none;
 }
@@ -261,4 +266,118 @@ h4 {
     padding: 0;
     -webkit-background-size: cover;
     background-size: cover;
+
+}
+
+
+/*Food section*/
+
+#food{
+	margin: auto;
+
+	display: inline-block;
+}
+
+#foodleft{
+	display: inline-block;
+	width: 49%;
+	float: left;
+	text-align: center;
+
+}
+
+#foodright{
+	display: inline-block;
+	width: 49%;
+	float: right;
+	text-align: center;
+}
+
+
+img {
+	width: 100%;
+	height: 350px;
+}
+
+
+.wrapper {
+	position: relative;
+}
+.cover {
+
+	position: absolute;
+	background-color: rgba(242, 234, 221, 0.6);
+	width: 100%;
+	height: 100%;
+	display: none;
+
+}
+
+
+
+.cover button{
+	margin: 140px;
+	width: 220px;
+	height: 70px;
+	background-color: transparent;
+	color: #a31523;
+	font-weight: bold;
+	border: 5px solid #a31523;
+	font-size: 40px;
+	border-radius: 8px;
+}
+
+
+.wrapper:hover .cover {
+	display: block;
+}
+
+#instagram{
+
+	display: inline-block;
+}
+
+#instagram h1 {
+    text-align:center:
+}
+.instapic {
+ width: 24%;
+ float: left;
+ margin-left: 10px;
+}
+
+
+img{
+ width: 100%;
+ height: 100%;
+ size: cover;
+ margin-bottom: 5px;
+ margin-left: 5px;
+
+}
+
+#picsone{
+ padding-top: 3%;
+
+}
+
+#picsthree{
+  padding-top: 3%;
+
+}
+
+
+.instapic img:hover{
+
+  width: 110%;
+  height: 110%;
+}
+
+
+#linkinst {
+  color:
+
+  #524437;
+  text-decoration: none;
+
 }
