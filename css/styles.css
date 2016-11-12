@@ -1,0 +1,433 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:300,400,700');
+html,
+body {
+    min-height: 100%;
+    font-family: 'Roboto', sans-serif;
+    background-color: #ededed;
+}
+
+* {
+    transition: all .1s ease-in;
+}
+
+h1,
+h2 {
+    color: #524437;
+}
+
+
+/*Colors*/
+
+
+/*
+
+#a31523
+#f2eadd
+#bdaa8c
+#524437
+*/
+
+.container {
+    margin: 0 auto;
+    width: 60%;
+}
+
+a {
+    text-decoration: none;
+    color: #a31523;
+}
+
+
+/*Navbar section*/
+
+nav {
+    background-color: #bdaa8c;
+    position: fixed;
+    width: 100%;
+    z-index: 5;
+}
+
+.logo {
+    float: left;
+    margin-left: 18%;
+    margin-top: 7px;
+}
+
+.logo img {
+    width: 40%;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+    font-size: 0;
+    float: right;
+}
+
+.menu li {
+    display: inline-block;
+    font-size: 1rem;
+    text-align: center;
+    text-transform: uppercase;
+    height: 100%;
+}
+
+.menu li a {
+    color: #ffffff;
+    display: inline-block;
+    padding: 22px 15px;
+    height: 100%;
+}
+
+.menu li a:hover {
+    color: #a31523;
+}
+
+.icons-block {
+    margin: 16px;
+}
+
+li.icon {
+    position: relative;
+    background-color: #f2eadd;
+    border-radius: 50%;
+    height: 30px;
+    width: 30px;
+    font-size: 1rem;
+    float: left;
+    margin-left: 10px;
+}
+
+li.icon i {
+    position: absolute;
+}
+
+li.icon:first-child i,
+li.icon:nth-child(4) i {
+    left: 10px;
+    top: 8px;
+}
+
+li.icon:nth-child(2) i,
+li.icon:nth-child(3) i,
+li.icon:last-child i {
+    left: 8px;
+    top: 7px;
+}
+
+li.icon:hover,
+li.icon:hover a {
+    background-color: #a31523;
+    color: #f2eadd;
+    cursor: pointer;
+}
+
+
+/*Header section*/
+
+header {
+    background-image: url("../img/photo-welcome.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    clear: both;
+}
+
+.sub-header {
+    position: absolute;
+    width: 100%;
+    height: 38%;
+    top: 34%;
+    background-color: rgba(242, 232, 221, 0.6);
+    text-align: center;
+    z-index: 1;
+}
+
+.sub-header h1 {
+    margin: 20px auto;
+    text-transform: capitalize;
+    color: #524437;
+}
+
+.sub-header h2 {
+    color: #524437;
+}
+
+.sub-header .button {
+    display: block;
+    margin: 40px auto;
+    border: 2px solid #a31523;
+    border-radius: 3px;
+    width: 150px;
+    padding: 10px;
+    background-color: #fff;
+    text-transform: uppercase;
+    color: #a31523;
+    text-align: center;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+.button:hover {
+    background-color: #a31523;
+    color: #fff;
+}
+
+
+/*---- styles for ABOUT US section -----*/
+
+#about {
+    /*background-color: rgba(242, 234, 221, 0.8);*/
+    /*background-color: rgba(82, 68, 55, 0.8);*/
+    background-color: rgba(189, 170, 140, 0.8);
+}
+
+.container {
+    width: 90%;
+    margin: auto;
+}
+
+.image {
+    padding: 15px;
+    margin-left: -10px;
+    display: inline-block;
+    width: 49%;
+}
+
+.image img {
+    margin: auto;
+    /*width: 460px;*/
+    height: 365px;
+    border-radius: 10px;
+}
+
+.text {
+    display: inline-block;
+    width: 45%;
+    position: absolute;
+}
+
+.text h1 {
+    color: #524437;
+    padding-top: 30px;
+    font-weight: 800;
+    text-align: center;
+}
+
+.text h1:before,
+.text h1:after {
+    content: " " "~" " ";
+    margin: auto;
+    vertical-align: center;
+    color: #524437;
+}
+
+.text p {
+    font-size: 24px;
+    color: white;
+    text-align: center;
+    font-weight: 600;
+    text-transform: lowercase;
+    font-style: italic;
+    text-shadow: 2px 2px 2px #524437;
+}
+
+
+/*-----Section AboutUs End------*/
+
+
+/*-----Menu Section----*/
+
+#menu .container {
+    width: 80%;
+    margin: auto;
+    border-radius: 7px;
+}
+
+.sections {
+    text-align: center;
+    margin: 5px auto 5px;
+    background-color: white;
+    border-radius: 7px;
+    vertical-align: middle;
+}
+
+.sections a {
+    display: inline-block;
+    padding: 15px;
+    font-size: 25px;
+    width: 100px;
+    color: #a31523;
+    margin: auto 20px;
+    text-decoration: none;
+    text-shadow: 1px 1px 2px #a31523;
+}
+
+.menuList {
+    padding: 25px;
+    column-count: 3;
+    column-gap: 50px;
+    color: white;
+    font-size: 20px;
+    line-height: 1.5;
+    border-radius: 7px;
+    background-color: rgba(189, 170, 140, 0.8);
+}
+
+.menuList p {
+    margin: 0;
+}
+
+
+/*-----Menu End----*/
+
+
+/*Contact section*/
+
+.location {
+    height: 200px;
+    width: 60%;
+    margin: auto;
+    margin-top: 50px;
+}
+
+.location-button {
+    border: 2px solid #524437;
+    border-radius: 15px;
+    margin: auto;
+    width: 25%;
+    height: 23%;
+}
+
+.location-button:hover {
+    background-color: #a31523;
+    color: #f2eadd;
+    border: 2px solid #a31523;
+}
+
+a.contacts:hover {
+    color: #f2eadd;
+}
+
+a.contacts {
+    text-decoration: none;
+    color: #524437;
+    padding-left: 19px;
+    line-height: 1.8;
+}
+
+span.contact-box {
+    font-size: 25px;
+    text-transform: uppercase;
+}
+
+h4 {
+    font-size: 16px;
+    letter-spacing: 1.5;
+    color: #524437;
+    text-align: center;
+}
+
+#section-map {
+    height: 300px;
+    width: 100%;
+    margin-top: 100px;
+    padding: 0;
+    -webkit-background-size: cover;
+    background-size: cover;
+}
+
+
+/*Food section*/
+
+#food {
+    margin: auto;
+    display: inline-block;
+}
+
+#foodleft {
+    display: inline-block;
+    width: 49%;
+    float: left;
+    text-align: center;
+}
+
+#foodright {
+    display: inline-block;
+    width: 49%;
+    float: right;
+    text-align: center;
+}
+
+img {
+    width: 100%;
+    height: 350px;
+}
+
+.wrapper {
+    position: relative;
+}
+
+.cover {
+    position: absolute;
+    background-color: rgba(242, 234, 221, 0.6);
+    width: 100%;
+    height: 100%;
+    display: none;
+}
+
+.cover button {
+    margin: 140px;
+    width: 220px;
+    height: 70px;
+    background-color: transparent;
+    color: #a31523;
+    font-weight: bold;
+    border: 5px solid #a31523;
+    font-size: 40px;
+    border-radius: 8px;
+}
+
+.wrapper:hover .cover {
+    display: block;
+}
+
+#instagram {
+    display: inline-block;
+}
+
+#instagram h1 {
+    text-align: center:
+}
+
+.instapic {
+    width: 24%;
+    float: left;
+    margin-left: 10px;
+}
+
+img {
+    width: 100%;
+    height: 100%;
+    size: cover;
+    margin-bottom: 5px;
+    margin-left: 5px;
+}
+
+#picsone {
+    padding-top: 3%;
+}
+
+#picsthree {
+    padding-top: 3%;
+}
+
+.instapic img:hover {
+    width: 110%;
+    height: 110%;
+}
+
+#linkinst {
+    color: #524437;
+    text-decoration: none;
+}
